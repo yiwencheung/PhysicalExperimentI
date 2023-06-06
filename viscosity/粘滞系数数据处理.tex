@@ -1,0 +1,83 @@
+\documentclass[12pt,a4paper,oneside]{ctexart}
+\usepackage{amsmath,amsthm}
+\title{粘滞系数$\quad$数据处理}
+\author{张博厚 PB22071354}
+\date{\today}
+\begin{document}
+\maketitle
+\newpage
+\section{实验内容}
+\noindent 
+三种小球共同匀速下降区的长度为:
+$$l=\dfrac{1}{3}(18.62+18.60+18.65)cm=18.62cm$$
+圆筒直径的平均值为:
+$$R=\dfrac{1}{3}(8.154+8.050+8.020)cm=8.075cm$$
+圆筒高度的平均值为:
+$$h=\dfrac{1}{3}(41.52+41.48+41.42)cm=41.47cm$$
+蓖麻油的密度为:
+$$\rho_0=\dfrac{1}{3}(0.9550+0.9551+0.9551)\times 10^3kg/m^3=0.9551\times 10^3kg/m^3$$
+蓖麻油的温度为:
+$$T=\dfrac{1}{3}(25.56+25.50+25.11)^{\circ}C=25.39^{\circ}C$$
+\subsection{利用大球计算粘滞系数}
+\noindent 大球的直径平均值为:
+$$d=\frac{1}{6}(0.3487+0.3490+0.3489+0.3490+0.3490+0.3486)cm=0.3489cm$$\\
+大球质量平均值为:
+$$m=\frac{1}{6}(0.1802+0.1801+0.1802+0.1796+0.1799+0.1797)g=0.1800g$$
+故其密度为:
+$$\rho=\dfrac{m}{\frac{4}{3}\pi (\frac{d}{2})^3}=\dfrac{0.1800\times 10^{-3}}{\frac{4}{3}\pi(\frac{0.3489\times 10^{-2}}{2})^3}=8.094\times 10^3 kg/m^3$$
+其通过匀速区的平均时间为:
+$$t=\frac{1}{6}(3.09+3.05+3.13+3.07+2.99+3.11)s=3.07s$$
+故其平均速度为:$$\overline{v}=\frac{0.1862m}{3.07s}=0.0607m/s$$
+可知粘滞系数为:
+\begin{equation*}
+    \eta_0=\frac{1}{18}\frac{(8.094-0.9551)\times 10^3\times 9.8\times (0.3489\times 10^{-2})^2}
+                            {0.0607\times(1+2.4\times\frac{0.3489}{2\times8.075})(1+3.3\times\frac{0.3489}{2\times 41.47})}
+          =0.7309Pa\cdot s
+\end{equation*}
+\subsection{利用中球计算粘滞系数}
+\noindent
+中球直径平均值为:
+$$d=\frac{1}{6}(0.1989+0.1996+0.1991+0.1995+0.1989+0.1997)cm=0.1993cm$$
+中球质量平均值为:
+$$m=\frac{1}{6}(0.0342+0.0342+0.0341+0.0340+0.0341+0.0341)g=0.0341g$$
+其密度为:
+$$\rho=\dfrac{0.0341\times 10^{-3}}{\frac{4}{3}\pi(\frac{0.1993\times 10^{-2}}{2})^3}=8.227\times10^3kg/m^3$$
+通过匀速区的平均时间为:
+$$t=\frac{1}{6}(8.89+8.94+8.88+8.91+8.78+8.95)=8.89s$$
+故其平均速度为$$\overline{v}=\frac{0.1862}{8.89}=0.0209m/s$$
+故粘滞系数为:
+\begin{equation*}
+    \eta_0=\frac{1}{18}\frac{(8.227-0.9551)\times10^3\times9.8\times(0.1993\times10^{-2})^2}
+                            {0.0209\times(1+2.4\times\frac{0.1993}{2\times8.075})(1+3.3\times\frac{0.1993}{2\times41.47})}=0.7250Pa\cdot s
+\end{equation*}
+\subsection{利用小球计算粘滞系数}
+\noindent
+小球直径平均值为:
+$$d=\frac{1}{6}(0.1478+0.1480+0.1480+0.1479+0.1472+0.1472)=0.1477cm$$
+质量平均值为:
+$$m=\frac{1}{6}(0.0142+0.0144+0.0141+0.0142+0.0139+0.0140)=0.0141g$$
+则其密度为:
+$$\rho=\dfrac{0.0141\times10^{-3}}{\frac{4}{3}\pi(\frac{0.1477\times10^{-2}}{2})^3}=8.358\times10^3kg/m^3$$
+小球通过匀速区的平均时间为:
+$$t=\frac{1}{6}(15.83+15.82+16.20+16.12+15.91+16.15)=16.01s$$
+平均速度为$$v=\dfrac{0.1862}{16.01}=0.0116m/s$$
+粘滞系数:
+\begin{equation*}
+    \eta_0=\frac{1}{18}\frac{(8.358-0.9551)\times10^3\times9.8\times(0.1477\times10^{-2})^2}
+    {0.0116\times(1+2.4\times\frac{0.1477}{2\times8.075})(1+3.3\times\frac{0.1477}{2\times41.47})}=0.7374Pa\cdot s
+\end{equation*}
+\section{参数修正}
+\noindent
+大球的雷诺数为:
+\begin{equation*}
+    R_{e1}=\dfrac{2rv\rho_0}{\eta_0}=\dfrac{0.3489\times10^{-2}\times0.0607\times0.9551\times10^3}{0.7309}=0.28
+\end{equation*}
+因此应做修正:
+$$\eta_1=\eta_0-\frac{3}{16}dv\rho_0=0.7309-\frac{3}{16}0.3489\times10^{-2}\times0.0607\times0.9551\times10^3=0.6930Pa\cdot s$$
+中球的雷诺数为:
+$$R_{e2}=\dfrac{0.1993\times10^{-2}\times0.0209\times0.9551\times10^3}{0.7250}=0.055<0.1$$
+故结果不需修正\\
+小球的雷诺数为:
+$$R_{e3}=\dfrac{0.1477\times10^{-2}\times0.0116\times0.9551\times10^3}{0.7374}=0.022<0.1$$
+故结果不需修正
+\end{document}

@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {\relax }$\uppercase {i\relax }$.实验背景}{2}{}%
+\contentsline {section}{\numberline {\relax }$\uppercase {ii\relax }$.实验目的}{2}{}%
+\contentsline {section}{\numberline {\relax }$\uppercase {iii\relax }$.自由落体法测量重力加速度}{2}{}%
+\contentsline {section}{\numberline {\relax }\uppercase {iv\relax }.单摆法测量重力加速度}{6}{}%
