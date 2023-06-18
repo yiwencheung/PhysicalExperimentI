@@ -5,4 +5,9 @@
 \contentsline {subsection}{\numberline {3.2}实验步骤}{4}{}%
 \contentsline {subsection}{\numberline {3.3}方案设计}{4}{}%
 \contentsline {section}{\numberline {4}数据记录与处理}{4}{}%
-\contentsline {section}{\numberline {5}思考与讨论}{4}{}%
+\contentsline {section}{\numberline {5}思考与讨论}{8}{}%
+\contentsline {subsection}{\numberline {5.1}本题是否满足$\gamma <<1$的条件?}{8}{}%
+\contentsline {subsection}{\numberline {5.2}为提高精度,本实验在设计上做了哪些安排?实验中应注意什么?}{8}{}%
+\contentsline {section}{\numberline {6}附录}{9}{}%
+\contentsline {subsection}{\numberline {6.1}实验方案设计}{9}{}%
+\contentsline {subsection}{\numberline {6.2}实验原始数据}{9}{}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.26)  12 JUN 2023 12:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.26)  18 JUN 2023 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,14 +426,39 @@ File: 扭转形变示意图.png Graphic file (type bmp)
 <扭转形变示意图.png>
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 39.
- [2] [3] [4] (./ShearModulus.aux) ) 
-Here is how much of TeX's memory you used:
- 8910 strings out of 476683
- 238164 string characters out of 5801401
- 1856012 words of memory out of 5000000
- 29035 multiletter control sequences out of 15000+600000
- 521397 words of font info for 91 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 89i,6n,97p,414b,275s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ [2] [3]
+Overfull \hbox (20.79149pt too wide) detected at line 95
+[] \OT1/cmr/m/n/12 = [] [] \OML/cmm/m/it/12 d[] \OT1/cmr/m/n/12 = [] [] = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 78433 []
+ []
 
-Output written on ShearModulus.pdf (4 pages).
+[4] [5] [6]
+Overfull \hbox (19.12372pt too wide) detected at line 194
+\OML/cmm/m/it/12 ^^[[] \OT1/cmr/m/n/12 = [] = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 2566\OML/cmm/m/it/12 s
+ []
+
+
+Overfull \hbox (12.59616pt too wide) detected at line 216
+[] \OT1/cmr/m/n/12 = []
+ []
+
+
+Overfull \hbox (50.54724pt too wide) detected at line 226
+\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = [] [] = 6\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 4635 \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 10[] []
+ []
+
+
+Overfull \hbox (44.1207pt too wide) detected at line 231
+[] \OT1/cmr/m/n/10 = []
+ []
+
+[7] [8] [9] (./ShearModulus.aux) ) 
+Here is how much of TeX's memory you used:
+ 8925 strings out of 476683
+ 238459 string characters out of 5801401
+ 1856012 words of memory out of 5000000
+ 29044 multiletter control sequences out of 15000+600000
+ 522066 words of font info for 97 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 89i,10n,97p,414b,275s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on ShearModulus.pdf (9 pages).
